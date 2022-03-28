@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962585010759",
+    "project_id": "smart-to-do-list-30316",
+    "storage_bucket": "smart-to-do-list-30316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962585010759:android:f5c4af4cb1504f4807c762",
+        "android_client_info": {
+          "package_name": "com.example.smartshoppinglist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962585010759-7djjcdf1c9u9vsgktfrc4bo1duhrorog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3npKGduhSq5ImRsEflWYjrvwRzcuc0DU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962585010759-7djjcdf1c9u9vsgktfrc4bo1duhrorog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

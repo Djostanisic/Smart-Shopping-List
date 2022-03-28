@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smart Shopping List</string>
+    <string name="logo">Logo</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in">Log in</string>
+    <string name="enter_category_name">Enter Category name</string>
+    <string name="enter_list_name">Enter list name</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+    <string name="you_don_t_have_any_category_list">You don\'t have any category list.</string>
+    <string name="add_new_category_button">Add new category button</string>
+</resources>

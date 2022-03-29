@@ -12,4 +12,7 @@
     <string name="create">Create</string>
     <string name="you_don_t_have_any_category_list">You don\'t have any category list.</string>
     <string name="add_new_category_button">Add new category button</string>
+    <string name="you_don_t_have_any_items_in_this_list">You don\'t have any items in this list.</string>
+    <string name="add_new_item">Add new item</string>
+    <string name="save_button">Save button</string>
 </resources>

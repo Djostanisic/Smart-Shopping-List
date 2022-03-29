@@ -71,7 +71,7 @@ public class ItemsListAdapter extends RecyclerView.Adapter<ItemsListAdapter.MyVi
         //If you finish an item(click on it) then it will get a line across.
         if(this.itemsList.get(position).completed){
             holder.tvItemName.setPaintFlags(holder.tvItemName.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
-            holder.tvItemName.setTextColor(Color.LTGRAY);
+            holder.tvItemName.setTextColor(Color.DKGRAY);
         } else {
             holder.tvItemName.setPaintFlags(0);
             holder.tvItemName.setTextColor(Color.BLACK);

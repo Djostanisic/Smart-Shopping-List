@@ -13,34 +13,40 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/addNewItemInput"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Add new item"
-        android:textColorHint="#FFFFFF"
-        android:textColor="@color/white"
+        android:layout_marginBottom="2dp"
         android:backgroundTint="@color/white"
-        android:textCursorDrawable="@color/white"
-        android:paddingEnd="35dp"
+        android:hint="@string/add_new_item"
         android:inputType="textCapSentences"
+        android:minHeight="48dp"
         android:singleLine="true"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_margin="10dp"
-        android:importantForAutofill="no" />
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        android:textCursorDrawable="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintEnd_toStartOf="@+id/saveButton"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/saveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="10dp"
+        android:contentDescription="@string/save_button"
         android:paddingBottom="10dp"
-        android:src="@drawable/ic_save"/>
+        android:src="@drawable/ic_save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/addNewItemInput"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        tools:ignore="RedundantDescriptionCheck"
+        tools:layout_editor_absoluteY="632dp" />
 
     <TextView
         android:id="@+id/noResult"
@@ -52,9 +58,23 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="20dp"
         android:textColor="#FFFFFF"
-        android:text="You don't have any items in this list."
+        android:text="@string/you_don_t_have_any_items_in_this_list"
         android:textSize="22sp"
         android:textStyle="bold"
         />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-8064335540050086/3457968476"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

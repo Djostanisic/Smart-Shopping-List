@@ -1,4 +1,4 @@
-package com.example.smartshoppinglist;
+package com.djostanisic.smartshoppinglist;
 
 import org.junit.Test;
 

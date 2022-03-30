@@ -1,4 +1,4 @@
-package com.example.smartshoppinglist;
+package com.djostanisic.smartshoppinglist;
 
 import androidx.appcompat.app.AppCompatActivity;
 

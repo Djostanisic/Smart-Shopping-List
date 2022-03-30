@@ -1,4 +1,4 @@
-package com.example.smartshoppinglist;
+package com.djostanisic.smartshoppinglist;
 
 
 import android.content.Context;
@@ -14,13 +14,13 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.smartshoppinglist.db.Items;
-import com.example.smartshoppinglist.viewmodel.ShowItemListActivityViewModel;
+import com.djostanisic.smartshoppinglist.db.Items;
+import com.djostanisic.smartshoppinglist.viewmodel.ShowItemListActivityViewModel;
+
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;

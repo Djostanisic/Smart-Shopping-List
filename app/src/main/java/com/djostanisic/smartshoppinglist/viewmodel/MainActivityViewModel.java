@@ -1,4 +1,4 @@
-package com.example.smartshoppinglist.viewmodel;
+package com.djostanisic.smartshoppinglist.viewmodel;
 
 import android.app.Application;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.MutableLiveData;
 
-import com.example.smartshoppinglist.db.AppDatabase;
-import com.example.smartshoppinglist.db.Category;
+import com.djostanisic.smartshoppinglist.db.AppDatabase;
+import com.djostanisic.smartshoppinglist.db.Category;
 
 import java.util.List;
 

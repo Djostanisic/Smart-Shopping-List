@@ -1,4 +1,4 @@
-package com.example.smartshoppinglist;
+package com.djostanisic.smartshoppinglist;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,8 +16,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.smartshoppinglist.db.Category;
-import com.example.smartshoppinglist.viewmodel.MainActivityViewModel;
+import com.djostanisic.smartshoppinglist.db.Category;
+import com.djostanisic.smartshoppinglist.viewmodel.MainActivityViewModel;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;

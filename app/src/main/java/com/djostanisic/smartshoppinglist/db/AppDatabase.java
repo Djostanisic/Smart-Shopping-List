@@ -1,4 +1,4 @@
-package com.example.smartshoppinglist.db;
+package com.djostanisic.smartshoppinglist.db;
 
 
 import android.content.Context;
